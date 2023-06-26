@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert('Esolha o tipo de calculo que o senhor(a) deseja realzar!')
+    </script>
+    <input type="button" value="soma" id="soma" onclick="soma()"> <input type="button" value="divisão" id="div" onclick="div()"> <input type="button" value="multiplicação" id="mult" onclick="mult()"> <input type="button" value="Potenciação" id="poten" onclick="poten()">
+
+
+</body>
+<script>
+    function soma(result){
+        
+            n1 = Number(prompt('Digite um número:'));
+            n2 = Number(prompt('Digite outro número:'));
+            result = n1+n2;
+            alert(`${result}`)
+        
+    }
+    function div(result){
+        
+            n1 = Number(prompt('Digite um número:'));
+            n2 = Number(prompt('Digite outro número:'));
+            result = n1/n2;
+            alert(`${result}`)
+        
+    }
+    function mult(result){
+        
+            n1 = Number(prompt('Digite um número:'));
+            n2 = Number(prompt('Digite outro número:'));
+            result = n1*n2;
+            alert(`${result}`)
+        
+    }
+    function poten(result){
+       
+            n1 = Number(prompt('Digite um número:'));
+            n2 = Number(prompt('Digite outro número:'));
+            result = n1**n2;
+            alert(`${result}`)
+        
+    }
+</script>
+</html>
